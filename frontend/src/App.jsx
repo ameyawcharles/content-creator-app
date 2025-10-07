@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function App(){return (<div className='min-h-screen flex flex-col items-center p-8'><h1 className='text-3xl font-bold mb-6'>🎬 Content Creator App — Starter</h1><p className='mb-6'>AI-assisted content creation (frontend + backend starter).</p><div className='flex gap-4'><Link to='/login' className='bg-blue-600 text-white px-4 py-2 rounded'>Login / Sign up</Link></div></div>)}
